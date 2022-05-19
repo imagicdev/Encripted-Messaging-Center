@@ -1,8 +1,7 @@
 var mobile = false
 if(navigator.userAgent.toLowerCase().match(/mobile/i)) {
-	window.navigate.vibrate([300, 50, 300, 50, 300]);
-	alert("Welcome to Encryped Messaging Center mobile!");
+	document.getElementById("alert").innerHTML = "Welcome to Encrypted Messaging Center!";
 	mobile = true
 }else{
-	alert("Welcome to Encryped Messaging Center);
+	document.getElementById("alert").innerHTML = "Welcome to Encrypted Messaging Center!";
 }
