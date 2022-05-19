@@ -6,4 +6,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 }else{
 	alert("Welcome to Encryped Messaging Center);
 }
-		  
+var logoBackground = new Circle(200);
+logoBackground.setPosition(getWidth()/2, getHeight()/2);
+logoBackground.setColor(Color.orange);
+add(logoBackground);
